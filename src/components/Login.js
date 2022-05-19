@@ -10,22 +10,22 @@ const Login = () => {
   return (
     <div>
 
-<div class="container">
-    <div class="row">
-        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <div class="row g-3">
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <label for="" class="form-label">UserName</label>
-                    <input onChange={(y)=>{setUsername(y.target.value)}} type="text" class="form-control"/>
+<div className="container">
+    <div className="row">
+        <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div className="row g-3">
+                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" className="form-label">UserName</label>
+                    <input onChange={(y)=>{setUsername(y.target.value)}} type="text" className="form-control"/>
                 </div>
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <label for="" class="form-label">Password</label>
-                    <input onChange={(y)=>{setPassword(y.target.value)}} type="text" class="form-control"/>
+                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" className="form-label">Password</label>
+                    <input onChange={(y)=>{setPassword(y.target.value)}} type="text" className="form-control"/>
                 </div>
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button onClick={subData} class="btn btn-primary">LOGIN</button>
+                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <button onClick={subData} className="btn btn-primary">LOGIN</button>
                 </div>
-                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <a href="/register">New user click here</a>
                 </div>
             </div>
