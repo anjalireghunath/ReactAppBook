@@ -11,14 +11,14 @@ import ViewBook from './components/ViewBook';
 function App() {
   return (
     <div>
-      <AddBook/>
 <BrowserRouter>
 <Routes>
   <Route path='/' exact element={<Login/>}/>
 <Route path='/register' exact element={<Register/>}/>
+<Route path='/add' exact element={<AddBook/>}/>
+<Route path='/view' exact element={<ViewBook/>}/>
 </Routes>
 </BrowserRouter>
-<ViewBook/>
     </div>
   );
 }
