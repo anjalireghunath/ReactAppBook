@@ -26,7 +26,7 @@ const Login = () => {
                     <button onClick={subData} class="btn btn-primary">LOGIN</button>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <a href="register.js">New user click here</a>
+                    <a href="/register">New user click here</a>
                 </div>
             </div>
         </div>
