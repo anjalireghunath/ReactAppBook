@@ -5,10 +5,12 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Login from './components/Login';
 import Register from './components/Register';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AddBook from './components/AddBook';
 
 function App() {
   return (
     <div>
+      <AddBook/>
 <BrowserRouter>
 <Routes>
   <Route path='/' exact element={<Login/>}/>
