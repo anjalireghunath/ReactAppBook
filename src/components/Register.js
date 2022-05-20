@@ -38,7 +38,8 @@ const Register = () => {
                     <input onChange={(x)=>{setConfirm(x.target.value)}} type="text" className="form-control"/>
                 </div>
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button onClick={readData} className="btn btn-primary">Register</button>
+                
+                   <button onClick={readData} className="btn btn-primary" >Register</button>
                 </div>
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <a href="/">Back To Login</a>
